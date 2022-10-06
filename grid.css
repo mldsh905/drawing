@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    border: grey solid 3px;
+    gap: 1px;
+}
+.cell{
+    background-color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons button{
+    padding: 6px 20px;
+}
+.buttons input{
+    box-sizing: content-box;
+    padding: 6px 20px;
+}
